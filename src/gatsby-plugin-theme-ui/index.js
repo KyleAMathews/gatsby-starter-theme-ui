@@ -1,10 +1,8 @@
-import { tailwind } from "@theme-ui/presets"
-console.log({
-  tailwind,
-})
+import { tailwind as baseStyles } from "@theme-ui/presets"
+
 export default {
-  ...tailwind,
+  ...baseStyles,
   styles: {
-    ...tailwind.styles,
+    ...baseStyles.styles,
   },
 }
